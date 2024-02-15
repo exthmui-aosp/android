@@ -11,7 +11,6 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r1"/>
   <contactinfo bugurl="go/repo-bug" />
 
-  <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk,sysui-studio" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -1467,6 +1466,12 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+
+  <!-- START exTHmUI changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/exthm.xml" />
+  <!-- END exTHmUI changes -->
   <!-- END open-source projects -->
 
 </manifest>

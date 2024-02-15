@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="exthm"
+            fetch="https://github.com/exthmui-next"
+            revision="Violet" />
+
+    <!-- Manifests -->
+    <project name="android" path="android" remote="exthm"/>
+
+    <!-- Build System -->
+    <project name="android_build" path="build/make" groups="pdk,sysui-studio" remote="exthm" >
+        <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+        <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+        <linkfile dest="build/core" src="core" />
+        <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+        <linkfile dest="build/target" src="target" />
+        <linkfile dest="build/tools" src="tools" />
+    </project>
+    <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="exthm" >
+        <linkfile dest="Android.bp" src="root.bp" />
+        <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+    </project>
+
+    <!-- Bootable -->
+    <project name="android_bootable_recovery" path="bootable/recovery" groups="pdk" remote="exthm" />
+
+    <!-- Bionic -->
+    <project name="android_bionic" path="bionic" groups="pdk" remote="exthm" />
+
+    <!-- Device -->
+    <project name="android_device_exthm_sepolicy" path="device/exthm/sepolicy" remote="exthm" />
+
+    <!-- Frameworks -->
+    <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
+    <project name="android_frameworks_base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="exthm"/>
+    <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/>
+
+    <!-- Hardware -->
+    <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="exthm" />
+    <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="exthm" />
+
+    <!-- Packages -->
+    <project name="android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" remote="exthm" />
+    <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="exthm" />
+    <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="exthm" />
+    <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="exthm" />
+    <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="exthm" />
+    <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="exthm" />
+    <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="exthm" />
+    <project name="android_packages_apps_YellowPage" path="packages/apps/YellowPage" remote="exthm" />
+    <project name="android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="exthm" />
+    <project name="android_packages_services_Telecomm" path="packages/services/Telecomm" remote="exthm" />
+
+    <!-- Prebuilts -->
+    <project name="android_prebuilts_exthmuix" path="prebuilts/exthmuix" remote="exthm" />
+    <project name="android_prebuilts_exthmui-sdk" path="prebuilts/exthmui-sdk" remote="exthm" />
+    <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
+
+    <!-- System -->
+    <project name="android_system_core" path="system/core" remote="exthm" />
+    <project name="android_system_sepolicy" path="system/sepolicy" remote="exthm" />
+    <project name="android_system_update_engine" path="system/update_engine" remote="exthm" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
+    <project name="android_vendor_support" path="vendor/support" remote="exthm" />    
+
+</manifest>
