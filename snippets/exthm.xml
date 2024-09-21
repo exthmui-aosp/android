@@ -5,4 +5,7 @@
             fetch="https://github.com/exTHmUI-next"
             revision="Seiran" />
 
+    <!-- Manifests -->
+    <project name="android" path="android" remote="exthm"/>
+
 </manifest>
