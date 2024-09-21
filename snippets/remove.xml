@@ -4,6 +4,10 @@
     <!-- Bionic -->
     <remove-project name="platform/bionic" />
 
+    <!-- Bootable -->
+    <remove-project name="platform/bootable/deprecated-ota" />
+    <remove-project name="platform/bootable/recovery" />
+
     <!-- Devices -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
