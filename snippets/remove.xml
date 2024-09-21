@@ -8,6 +8,10 @@
     <remove-project name="platform/bootable/deprecated-ota" />
     <remove-project name="platform/bootable/recovery" />
 
+    <!-- Build -->
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
+
     <!-- Devices -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
