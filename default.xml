@@ -1470,7 +1470,7 @@
   <!-- END open-source projects -->
   <!-- BEGIN exTHmUI changes -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/external.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/exthm.xml" />
   <!-- END exTHmUI changes -->
 
