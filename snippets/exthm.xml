@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="exthm"
-            fetch="https://github.com/exTHmUI-next"
+            fetch="https://github.com/exthmui-aosp"
             revision="Seiran" />
 
     <!-- Manifests -->
