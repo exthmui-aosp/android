@@ -43,6 +43,7 @@
     <remove-project name="device/google/comet" />
     <remove-project name="device/google/comet-kernels/6.1" />
     <remove-project name="device/google/comet-sepolicy" />
+    <remove-project name="device/google/contexthub" />
     <remove-project name="device/google/coral" />
     <remove-project name="device/google/coral-kernel" />
     <remove-project name="device/google/coral-sepolicy" />
