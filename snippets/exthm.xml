@@ -9,6 +9,7 @@
     <project name="android" path="android" remote="exthm"/>
 
     <!-- Build System -->
+    <project name="android_build_release" path="build/release" remote="exthm" />
     <project name="android_build_blueprint" path="build/blueprint" remote="exthm" />
     <project name="android_build" path="build/make" groups="pdk,sysui-studio" remote="exthm" >
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
