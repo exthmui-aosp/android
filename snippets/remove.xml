@@ -88,19 +88,13 @@
 
     <!-- External -->
     <remove-project name="platform/external/avb" />
-    <remove-project name="platform/external/cronet" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/gptfdisk" />
-    <remove-project name="platform/external/libcxx" />
-    <remove-project name="platform/external/libnl" />
-    <remove-project name="platform/external/libvpx" />
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/tinycompress" />
-    <remove-project name="platform/external/webp" />
-    <remove-project name="platform/external/wpa_supplicant_8" />
     <remove-project name="platform/external/zstd" />
 
     <!-- Frameworks -->
