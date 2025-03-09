@@ -142,6 +142,9 @@
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
 
+    <!-- Rootdir -->
+    <remove-project name="platform/development" />
+ 
     <!-- System -->
     <remove-project name="platform/system/bpf"/>
     <remove-project name="platform/system/core"/>

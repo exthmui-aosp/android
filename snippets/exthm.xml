@@ -59,6 +59,9 @@
     <project name="android_prebuilts_exthmui-sdk" path="prebuilts/exthmui-sdk" remote="exthm" />
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
+    <!-- Rootdir -->
+    <project name="android_development" path="development" remote="exthm" />
+
     <!-- System -->
     <project name="android_system_core" path="system/core" remote="exthm" />
     <project name="android_system_sepolicy" path="system/sepolicy" remote="exthm" />
