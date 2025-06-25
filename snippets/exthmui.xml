@@ -6,6 +6,8 @@
            sync-j="4"
            revision="refs/heads/baka" />
 
+  <!-- Bionic -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="exthmui" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="exthmui" >
