@@ -25,6 +25,9 @@
   <!-- External -->
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="exthmui" />
 
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="exthmui" />
+
   <!-- Vendor -->
   <project path="vendor/exthm" name="android_vendor_exthm" remote="exthmui" />
 
