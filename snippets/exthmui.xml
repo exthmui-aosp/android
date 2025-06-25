@@ -29,7 +29,10 @@
 
   <!-- External -->
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="exthmui" />
-
+  
+  <!-- Hardware -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="exthmui" />
+  
   <!-- Frameworks -->
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="exthmui" />
 
