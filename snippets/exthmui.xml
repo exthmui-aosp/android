@@ -22,6 +22,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/exthm/sepolicy" name="android_device_exthm_sepolicy" remote="exthmui" />
+
   <!-- External -->
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="exthmui" />
 
