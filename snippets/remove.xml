@@ -5,4 +5,7 @@
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
 
+    <!-- External -->
+    <remove-project name="platform/external/dtc" />
+
 </manifest>
