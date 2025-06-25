@@ -25,6 +25,9 @@
   <!-- External -->
   <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="exthmui" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="exthmui" />
+
   <!-- System -->
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="exthmui" />
 

@@ -8,6 +8,9 @@
     <!-- External -->
     <remove-project name="platform/external/dtc" />
 
+    <!-- Frameworks -->
+    <remove-project name="platform/frameworks/native" />
+    
     <!-- System -->
     <remove-project name="platform/system/sepolicy" />
 
