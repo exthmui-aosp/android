@@ -10,6 +10,9 @@
     <!-- External -->
     <remove-project name="platform/external/dtc" />
 
+    <!-- Hardware -->
+    <remove-project name="platform/hardware/libhardware" />
+
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
