@@ -34,6 +34,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="exthmui" />
   
   <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="exthmui" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="exthmui" />
 
   <!-- Packages -->

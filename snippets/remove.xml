@@ -11,6 +11,7 @@
     <remove-project name="platform/external/dtc" />
 
     <!-- Frameworks -->
+    <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
     
     <!-- Packages -->
