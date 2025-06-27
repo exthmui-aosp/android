@@ -12,6 +12,7 @@
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/interfaces" />
 
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/base" />
